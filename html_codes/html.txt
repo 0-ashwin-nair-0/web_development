@@ -1,1 +1,2 @@
-
+This folder is for the html codes. 
+I have uploaded different examples of varied topics in html. 
