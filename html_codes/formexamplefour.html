@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div align="center">
+    <form>
+        <fieldset style="border:2px solid red;width:40%;background-color: lightblue;">
+            <table cellspacing="10px" cellpadding="10px">
+                <tr>
+                    <h2>Student Registration Form</h2>
+                    <hr style="border:2px solid white">
+                </tr>
+            <tr>
+     <td>First Name:</td>
+     <td><input type="text" name="firstname" placeholder="Firstname"></td>
+            </tr>
+             <tr>
+                <td>MiddleName:</td>
+                <td><input type="text" name="middlename" placeholder="Middlename"></td>
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td><input type="text" name="lastname" placeholder="Lastname"></td>
+            </tr>
+           <tr>
+    <td>Course:</td>
+    <td>
+        <select name="course" id="course">
+            <option value="java">Java</option>
+            <option value="python">Python</option>
+            <option value="c++">C++</option>
+        </select>
+    </td>
+</tr>
+            <tr>
+                <td>Gender:</td>
+                <td colspan="3">
+                    <input type="radio" name="gender" value="Male">Male
+                    <input type="radio" name="gender" value="female">Female
+                    <input type="radio" name="gender" value="other">Other
+                </td>
+            </tr>
+           <tr>
+    <td>Phone Number:</td>
+    <td>
+        +91 <input type="tel" name="mobile" placeholder="phone no.">
+    </td>
+</tr>
+            <tr>
+                <td>Current Address:</td>
+                <td><textarea name="address" cols="20" rows="5" placeholder="Current Address"></textarea></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" name="email" placeholder="Email"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="password" placeholder="Password"></td>
+            </tr>
+            <tr>
+                <td>Re-type Password</td>
+                <td><input type="password" name="retypepassword" placeholder="Re-type Password"></td>
+            </tr>
+            </table>
+        </fieldset>
+    </form>
+    </div>
+</body>
+</html>
